@@ -1,0 +1,2697 @@
+Started GET "/activities?activity_code=clone_cost_model" for 127.0.0.1 at 2018-05-15 14:33:32 +0530
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.0.7) lib/active_record/migration.rb:573:in `check_pending!'
+activerecord (5.0.7) lib/active_record/migration.rb:549:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/activities?activity_code=clone_cost_model" for 127.0.0.1 at 2018-05-15 14:33:32 +0530
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.0.7) lib/active_record/migration.rb:573:in `check_pending!'
+activerecord (5.0.7) lib/active_record/migration.rb:549:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  [1m[35m (3.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateLinks (20180515084628)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "links" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "long_url" text, "short_url" varchar, "status_code" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_links_on_short_url" ON "links" ("short_url")[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180515084628"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-05-15 09:03:42.203648"], ["updated_at", "2018-05-15 09:03:42.203648"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_links_on_short_url' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_links_on_short_url' AND type='index'
+[0m
+Started GET "/" for ::1 at 2018-05-15 14:34:02 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/av041881/.rvm/gems/ruby-2.2.3/gems/railties-5.0.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/av041881/.rvm/gems/ruby-2.2.3/gems/railties-5.0.7/lib/rails/templates/rails/welcome/index.html.erb (3.3ms)
+Completed 200 OK in 13ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for ::1 at 2018-05-15 14:34:03 +0530
+  
+ActionController::RoutingError (uninitialized constant LinksController):
+  
+activesupport (5.0.7) lib/active_support/inflector/methods.rb:268:in `const_get'
+activesupport (5.0.7) lib/active_support/inflector/methods.rb:268:in `block in constantize'
+activesupport (5.0.7) lib/active_support/inflector/methods.rb:266:in `each'
+activesupport (5.0.7) lib/active_support/inflector/methods.rb:266:in `inject'
+activesupport (5.0.7) lib/active_support/inflector/methods.rb:266:in `constantize'
+actionpack (5.0.7) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.0.7) lib/action_dispatch/routing/route_set.rb:44:in `controller'
+actionpack (5.0.7) lib/action_dispatch/routing/route_set.rb:30:in `serve'
+actionpack (5.0.7) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.7) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.7) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.7) lib/action_dispatch/routing/route_set.rb:727:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+activerecord (5.0.7) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/blah" for ::1 at 2018-05-15 14:35:09 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  
+ActionController::RoutingError (uninitialized constant LinkController):
+  
+activesupport (5.0.7) lib/active_support/inflector/methods.rb:268:in `const_get'
+activesupport (5.0.7) lib/active_support/inflector/methods.rb:268:in `block in constantize'
+activesupport (5.0.7) lib/active_support/inflector/methods.rb:266:in `each'
+activesupport (5.0.7) lib/active_support/inflector/methods.rb:266:in `inject'
+activesupport (5.0.7) lib/active_support/inflector/methods.rb:266:in `constantize'
+actionpack (5.0.7) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.0.7) lib/action_dispatch/routing/route_set.rb:44:in `controller'
+actionpack (5.0.7) lib/action_dispatch/routing/route_set.rb:30:in `serve'
+actionpack (5.0.7) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.7) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.7) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.7) lib/action_dispatch/routing/route_set.rb:727:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+activerecord (5.0.7) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/blah" for ::1 at 2018-05-15 14:35:36 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LinksController#relay as HTML
+  Parameters: {"long_url"=>"blah"}
+Completed 204 No Content in 90543ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/blah" for ::1 at 2018-05-15 14:37:33 +0530
+Processing by LinksController#relay as HTML
+  Parameters: {"long_url"=>"blah"}
+Completed 204 No Content in 23330ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/blah" for ::1 at 2018-05-15 14:38:16 +0530
+Processing by LinksController#relay as HTML
+  Parameters: {"long_url"=>"blah"}
+Completed 204 No Content in 29140ms (ActiveRecord: 0.0ms)
+
+
+  [1m[36mLink Load (1.4ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started GET "/links" for ::1 at 2018-05-15 14:44:50 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LinksController#index as HTML
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Completed 200 OK in 5ms (Views: 1.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/links/show/1" for ::1 at 2018-05-15 14:47:23 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/links/show/1"):
+  
+actionpack (5.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "ggl"], ["LIMIT", 1]]
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "links" ("long_url", "short_url", "status_code", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["long_url", "google.com"], ["short_url", "ggl"], ["status_code", 301], ["created_at", "2018-05-15 09:23:42.937293"], ["updated_at", "2018-05-15 09:23:42.937293"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mLink Load (0.3ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "ggl"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+DEPRECATION WARNING: Passing #original_exception is deprecated and has no effect. Exceptions will automatically capture the original exception. (called from load at /Users/av041881/.rvm/gems/ruby-2.2.3/bin/rake:23)
+  [1m[35m (2.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateLinks (20180515084628)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "links" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "long_url" text, "short_url" varchar, "status_code" integer, "uuid" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_links_on_uuid" ON "links" ("uuid")[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180515084628"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-05-15 09:33:40.030643"], ["updated_at", "2018-05-15 09:33:40.030643"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_links_on_uuid' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_links_on_uuid' AND type='index'
+[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (2.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateLinks (20180515084628)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "links" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "long_url" text, "short_url" varchar, "status_code" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_links_on_short_url" ON "links" ("short_url")[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180515084628"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-05-15 13:56:27.019586"], ["updated_at", "2018-05-15 13:56:27.019586"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_links_on_short_url' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_links_on_short_url' AND type='index'
+[0m
+Started POST "/links/url%20=%20'http://google.com'" for 127.0.0.1 at 2018-05-15 19:29:11 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  
+ActionController::RoutingError (No route matches [POST] "/links/url%20=%20'http:/google.com'"):
+  
+actionpack (5.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/links?url%20=%20%27http://google.com%27" for 127.0.0.1 at 2018-05-15 19:29:21 +0530
+  
+SyntaxError (/Users/av041881/Desktop/project/shortly/app/controllers/links_controller.rb:17: syntax error, unexpected keyword_end
+/Users/av041881/Desktop/project/shortly/app/controllers/links_controller.rb:24: syntax error, unexpected keyword_end
+/Users/av041881/Desktop/project/shortly/app/controllers/links_controller.rb:29: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/links_controller.rb:17: syntax error, unexpected keyword_end
+app/controllers/links_controller.rb:24: syntax error, unexpected keyword_end
+app/controllers/links_controller.rb:29: syntax error, unexpected end-of-input, expecting keyword_end
+Started POST "/links?url%20=%20%27http://google.com%27" for 127.0.0.1 at 2018-05-15 19:29:50 +0530
+  
+SyntaxError (/Users/av041881/Desktop/project/shortly/app/controllers/links_controller.rb:24: syntax error, unexpected keyword_end
+/Users/av041881/Desktop/project/shortly/app/controllers/links_controller.rb:29: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/links_controller.rb:24: syntax error, unexpected keyword_end
+app/controllers/links_controller.rb:29: syntax error, unexpected end-of-input, expecting keyword_end
+Started POST "/links?url%20=%20%27http://google.com%27" for 127.0.0.1 at 2018-05-15 19:30:30 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url "=>" 'http://google.com'"}
+Completed 204 No Content in 39488ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-15 19:31:28 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 675698ms (ActiveRecord: 1.3ms)
+
+
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-15 19:42:47 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 26619ms (ActiveRecord: 0.8ms)
+
+
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-15 19:43:19 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.5ms)[0m  [1m[32mINSERT INTO "links" ("long_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["long_url", "http://google.com"], ["created_at", "2018-05-15 14:13:22.640770"], ["updated_at", "2018-05-15 14:13:22.640770"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35mSQL (2.6ms)[0m  [1m[31mDELETE FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "links" ("long_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["long_url", "http://google.com"], ["created_at", "2018-05-15 14:15:15.515330"], ["updated_at", "2018-05-15 14:15:15.515330"]]
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "links" ("long_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["long_url", "http://google.com"], ["created_at", "2018-05-15 14:15:33.902203"], ["updated_at", "2018-05-15 14:15:33.902203"]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Completed 204 No Content in 198434ms (ActiveRecord: 12.7ms)
+
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (2.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateLinks (20180515084628)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "links" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "uid" varchar, "long_url" text, "short_url" varchar, "status_code" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_links_on_uid" ON "links" ("uid")[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180515084628"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-05-15 14:17:57.303778"], ["updated_at", "2018-05-15 14:17:57.303778"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_links_on_uid' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_links_on_uid' AND type='index'
+[0m
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-15 19:54:33 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 52699ms (ActiveRecord: 1.4ms)
+
+
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-15 19:55:35 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35mSQL (2.8ms)[0m  [1m[32mINSERT INTO "links" ("long_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["long_url", "http://google.com"], ["created_at", "2018-05-15 14:25:46.025196"], ["updated_at", "2018-05-15 14:25:46.025196"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+Completed 204 No Content in 89767ms (ActiveRecord: 4.3ms)
+
+
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-15 19:57:18 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35mSQL (4.0ms)[0m  [1m[31mDELETE FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "links" ("long_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["long_url", "http://google.com"], ["created_at", "2018-05-15 14:27:50.806878"], ["updated_at", "2018-05-15 14:27:50.806878"]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+Completed 204 No Content in 532705ms (ActiveRecord: 8.1ms)
+
+
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-15 20:31:20 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 11ms (ActiveRecord: 1.1ms)
+
+
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-15 20:31:37 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 3ms (ActiveRecord: 0.2ms)
+
+
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-15 20:32:00 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 22917ms (ActiveRecord: 1.3ms)
+
+
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-15 20:33:28 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 42726ms (ActiveRecord: 1.5ms)
+
+
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-15 20:34:27 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35mSQL (3.9ms)[0m  [1m[31mDELETE FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35mSQL (1.5ms)[0m  [1m[32mINSERT INTO "links" ("long_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["long_url", "http://google.com"], ["created_at", "2018-05-15 15:05:18.023611"], ["updated_at", "2018-05-15 15:05:18.023611"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "links" SET "uid" = 'e2c16c' WHERE "links"."id" = ?[0m  [["id", 3]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" = ? AND ("links"."id" != ?) LIMIT ?[0m  [["uid", "d"], ["id", 3], ["LIMIT", 1]]
+  [1m[36mLink Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" = ? AND ("links"."id" != ?) LIMIT ?[0m  [["short_url", "url"], ["id", 3], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "links" SET "uid" = ?, "short_url" = ?, "updated_at" = ? WHERE "links"."id" = ?[0m  [["uid", "d"], ["short_url", "url"], ["updated_at", "2018-05-15 15:05:21.287391"], ["id", 3]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 53520ms (Views: 0.1ms | ActiveRecord: 12.1ms)
+
+
+  [1m[36mLink Load (1.5ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35mSQL (2.9ms)[0m  [1m[31mDELETE FROM "links"[0m
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-15 20:36:48 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "links" ("long_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["long_url", "http://google.com"], ["created_at", "2018-05-15 15:06:56.414204"], ["updated_at", "2018-05-15 15:06:56.414204"]]
+  [1m[35m (1.9ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 7723ms (ActiveRecord: 3.2ms)
+
+
+  
+NoMethodError (undefined method `generate_uid' for #<Link:0x007f86adad7560>):
+  
+app/controllers/links_controller.rb:23:in `create'
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-15 20:37:06 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "links" ("long_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["long_url", "http://google.com"], ["created_at", "2018-05-15 15:07:10.852857"], ["updated_at", "2018-05-15 15:07:10.852857"]]
+  [1m[35mSQL (0.0ms)[0m  [1m[33mUPDATE "links" SET "short_url" = 'c8321b' WHERE "links"."id" = ?[0m  [["id", 4]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" = ? AND ("links"."id" != ?) LIMIT ?[0m  [["uid", "e"], ["id", 4], ["LIMIT", 1]]
+  [1m[36mLink Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" = ? AND ("links"."id" != ?) LIMIT ?[0m  [["short_url", "c8321b"], ["id", 4], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "links" SET "uid" = ?, "updated_at" = ? WHERE "links"."id" = ?[0m  [["uid", "e"], ["updated_at", "2018-05-15 15:07:10.858283"], ["id", 4]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 4057ms (Views: 0.1ms | ActiveRecord: 4.6ms)
+
+
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35mSQL (3.1ms)[0m  [1m[31mDELETE FROM "links"[0m
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-15 20:38:32 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "links" ("long_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["long_url", "http://google.com"], ["created_at", "2018-05-15 15:08:37.439719"], ["updated_at", "2018-05-15 15:08:37.439719"]]
+  [1m[35mSQL (0.0ms)[0m  [1m[33mUPDATE "links" SET "short_url" = '2de110' WHERE "links"."id" = ?[0m  [["id", 5]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" = ? AND ("links"."id" != ?) LIMIT ?[0m  [["uid", "f"], ["id", 5], ["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" = ? AND ("links"."id" != ?) LIMIT ?[0m  [["short_url", "2de110"], ["id", 5], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "links" SET "uid" = ?, "updated_at" = ? WHERE "links"."id" = ?[0m  [["uid", "f"], ["updated_at", "2018-05-15 15:08:37.445121"], ["id", 5]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 4806ms (Views: 0.1ms | ActiveRecord: 4.0ms)
+
+
+  [1m[36mLink Load (0.3ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35mSQL (3.3ms)[0m  [1m[31mDELETE FROM "links"[0m
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-15 20:42:50 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-21 11:56:30 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "links" ("long_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["long_url", "http://google.com"], ["created_at", "2018-05-21 06:27:09.701460"], ["updated_at", "2018-05-21 06:27:09.701460"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "links" SET "short_url" = 'b4e385' WHERE "links"."id" = ?[0m  [["id", 6]]
+  [1m[35m (2.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" = ? AND ("links"."id" != ?) LIMIT ?[0m  [["uid", "g"], ["id", 6], ["LIMIT", 1]]
+  [1m[36mLink Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" = ? AND ("links"."id" != ?) LIMIT ?[0m  [["short_url", "b4e385"], ["id", 6], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "links" SET "uid" = ?, "updated_at" = ? WHERE "links"."id" = ?[0m  [["uid", "g"], ["updated_at", "2018-05-21 06:27:12.901709"], ["id", 6]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 40799ms (Views: 0.2ms | ActiveRecord: 7.0ms)
+
+
+  [1m[36mLink Load (1.3ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35mSQL (3.1ms)[0m  [1m[31mDELETE FROM "links"[0m
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-21 12:04:26 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links" WHERE "links"."long_url" = ? AND "links"."short_url" IS NULL[0m  [["long_url", "http://google.com"]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "links" ("long_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["long_url", "http://google.com"], ["created_at", "2018-05-21 06:34:51.229808"], ["updated_at", "2018-05-21 06:34:51.229808"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "links" SET "short_url" = '85b1e0' WHERE "links"."id" = ?[0m  [["id", 7]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" = ? AND ("links"."id" != ?) LIMIT ?[0m  [["uid", "h"], ["id", 7], ["LIMIT", 1]]
+  [1m[36mLink Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" = ? AND ("links"."id" != ?) LIMIT ?[0m  [["short_url", "85b1e0"], ["id", 7], ["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links" WHERE "links"."long_url" = ? AND "links"."short_url" = ?[0m  [["long_url", "http://google.com"], ["short_url", "85b1e0"]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 14350ms (ActiveRecord: 4.0ms)
+
+
+  
+NoMethodError (undefined method `length' for 7:Fixnum):
+  
+app/models/link.rb:18:in `block in check_validity'
+app/models/link.rb:17:in `check_validity'
+app/controllers/links_controller.rb:25:in `create'
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35mSQL (2.9ms)[0m  [1m[31mDELETE FROM "links"[0m
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-21 12:06:19 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links" WHERE "links"."long_url" = ? AND "links"."short_url" IS NULL[0m  [["long_url", "http://google.com"]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "links" ("long_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["long_url", "http://google.com"], ["created_at", "2018-05-21 06:39:40.510562"], ["updated_at", "2018-05-21 06:39:40.510562"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "links" SET "short_url" = '48d143' WHERE "links"."id" = ?[0m  [["id", 8]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" = ? AND ("links"."id" != ?) LIMIT ?[0m  [["uid", "i"], ["id", 8], ["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" = ? AND ("links"."id" != ?) LIMIT ?[0m  [["short_url", "48d143"], ["id", 8], ["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT  "links".* FROM "links" ORDER BY "links"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "links".* FROM "links" ORDER BY "links"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "links".* FROM "links" ORDER BY "links"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links" WHERE "links"."long_url" = ? AND "links"."short_url" = ?[0m  [["long_url", "http://google.com"], ["short_url", "48d143"]]
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "links" SET "uid" = ?, "updated_at" = ? WHERE "links"."id" = ?[0m  [["uid", "i"], ["updated_at", "2018-05-21 06:41:05.290325"], ["id", 8]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 285329ms (Views: 0.1ms | ActiveRecord: 7.3ms)
+
+
+  [1m[36mLink Load (0.3ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35mSQL (2.9ms)[0m  [1m[31mDELETE FROM "links"[0m
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-21 12:19:45 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links" WHERE "links"."long_url" = ? AND "links"."short_url" IS NULL[0m  [["long_url", "http://google.com"]]
+Completed 500 Internal Server Error in 10265ms (ActiveRecord: 0.9ms)
+
+
+  
+NoMethodError (undefined method `delete_if' for #<ActiveRecord::Relation []>):
+  
+app/models/link.rb:14:in `check_validity'
+app/controllers/links_controller.rb:23:in `create'
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-21 12:20:10 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links" WHERE "links"."long_url" = ? AND "links"."short_url" IS NULL[0m  [["long_url", "http://google.com"]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "links" ("long_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["long_url", "http://google.com"], ["created_at", "2018-05-21 06:50:13.284091"], ["updated_at", "2018-05-21 06:50:13.284091"]]
+  [1m[35mSQL (0.0ms)[0m  [1m[33mUPDATE "links" SET "short_url" = '89132a' WHERE "links"."id" = ?[0m  [["id", 9]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" = ? AND ("links"."id" != ?) LIMIT ?[0m  [["uid", "j"], ["id", 9], ["LIMIT", 1]]
+  [1m[36mLink Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" = ? AND ("links"."id" != ?) LIMIT ?[0m  [["short_url", "89132a"], ["id", 9], ["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links" WHERE "links"."long_url" = ? AND "links"."short_url" = ?[0m  [["long_url", "http://google.com"], ["short_url", "89132a"]]
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "links" SET "uid" = ?, "updated_at" = ? WHERE "links"."id" = ?[0m  [["uid", "j"], ["updated_at", "2018-05-21 06:50:13.289732"], ["id", 9]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 2557ms (Views: 0.1ms | ActiveRecord: 4.4ms)
+
+
+  [1m[36mLink Load (0.3ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-21 12:20:25 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links" WHERE "links"."long_url" = ? AND "links"."short_url" IS NULL[0m  [["long_url", "http://google.com"]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "links" ("long_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["long_url", "http://google.com"], ["created_at", "2018-05-21 06:50:29.441833"], ["updated_at", "2018-05-21 06:50:29.441833"]]
+  [1m[35mSQL (0.0ms)[0m  [1m[33mUPDATE "links" SET "short_url" = 'f1c1d1' WHERE "links"."id" = ?[0m  [["id", 10]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" = ? AND ("links"."id" != ?) LIMIT ?[0m  [["uid", "k"], ["id", 10], ["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" = ? AND ("links"."id" != ?) LIMIT ?[0m  [["short_url", "f1c1d1"], ["id", 10], ["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links" WHERE "links"."long_url" = ? AND "links"."short_url" = ?[0m  [["long_url", "http://google.com"], ["short_url", "f1c1d1"]]
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "links" SET "uid" = ?, "updated_at" = ? WHERE "links"."id" = ?[0m  [["uid", "k"], ["updated_at", "2018-05-21 06:50:29.447274"], ["id", 10]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 3879ms (Views: 0.1ms | ActiveRecord: 3.8ms)
+
+
+  [1m[36mLink Load (0.3ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35mSQL (3.2ms)[0m  [1m[31mDELETE FROM "links"[0m
+  [1m[36mLink Load (0.3ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-21 12:21:34 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links" WHERE "links"."long_url" = ? AND "links"."short_url" IS NULL[0m  [["long_url", "http://google.com"]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "links" ("long_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["long_url", "http://google.com"], ["created_at", "2018-05-21 06:51:59.357375"], ["updated_at", "2018-05-21 06:51:59.357375"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "links" SET "short_url" = '5688b7' WHERE "links"."id" = ?[0m  [["id", 11]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" = ? AND ("links"."id" != ?) LIMIT ?[0m  [["uid", "l"], ["id", 11], ["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" = ? AND ("links"."id" != ?) LIMIT ?[0m  [["short_url", "5688b7"], ["id", 11], ["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links" WHERE "links"."long_url" = ? AND "links"."short_url" = ?[0m  [["long_url", "http://google.com"], ["short_url", "5688b7"]]
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "links" SET "uid" = ?, "updated_at" = ? WHERE "links"."id" = ?[0m  [["uid", "l"], ["updated_at", "2018-05-21 06:52:00.837025"], ["id", 11]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 26810ms (Views: 0.1ms | ActiveRecord: 7.1ms)
+
+
+  [1m[36mLink Load (0.3ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-21 12:22:14 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links" WHERE "links"."long_url" = ?[0m  [["long_url", "http://google.com"]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "links" ("long_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["long_url", "http://google.com"], ["created_at", "2018-05-21 06:52:53.589520"], ["updated_at", "2018-05-21 06:52:53.589520"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "links" SET "short_url" = 'c58fc8' WHERE "links"."id" = ?[0m  [["id", 12]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" = ? AND ("links"."id" != ?) LIMIT ?[0m  [["uid", "m"], ["id", 12], ["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" = ? AND ("links"."id" != ?) LIMIT ?[0m  [["short_url", "c58fc8"], ["id", 12], ["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links" WHERE "links"."long_url" = ?[0m  [["long_url", "http://google.com"]]
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "links" SET "uid" = ?, "updated_at" = ? WHERE "links"."id" = ?[0m  [["uid", "m"], ["updated_at", "2018-05-21 06:52:58.541714"], ["id", 12]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 44239ms (Views: 0.1ms | ActiveRecord: 6.6ms)
+
+
+  [1m[36mLink Load (0.3ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35mSQL (2.9ms)[0m  [1m[31mDELETE FROM "links"[0m
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-21 12:35:01 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 11410ms (ActiveRecord: 1.1ms)
+
+
+  
+NoMethodError (undefined method `>' for nil:NilClass):
+  
+app/controllers/concerns/cryptex.rb:7:in `encrypt'
+app/models/link.rb:18:in `check_validity'
+app/controllers/links_controller.rb:21:in `create'
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-21 12:37:19 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 8584ms (ActiveRecord: 0.3ms)
+
+
+  
+NoMethodError (undefined method `>' for nil:NilClass):
+  
+app/controllers/concerns/cryptex.rb:7:in `encrypt'
+app/models/link.rb:18:in `check_validity'
+app/controllers/links_controller.rb:21:in `create'
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-21 12:37:34 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 336928ms (ActiveRecord: 0.6ms)
+
+
+  
+NoMethodError (undefined method `>' for nil:NilClass):
+  
+app/controllers/concerns/cryptex.rb:7:in `encrypt'
+app/models/link.rb:18:in `check_validity'
+app/controllers/links_controller.rb:21:in `create'
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-21 12:43:20 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "links" ("long_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["long_url", "http://google.com"], ["created_at", "2018-05-21 07:13:28.712449"], ["updated_at", "2018-05-21 07:13:28.712449"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "links" SET "short_url" = '77bed9' WHERE "links"."id" = ?[0m  [["id", 13]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Completed 200 OK in 93159ms (Views: 0.1ms | ActiveRecord: 4.1ms)
+
+
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35mSQL (2.7ms)[0m  [1m[31mDELETE FROM "links"[0m
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-21 12:45:05 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "links" ("long_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["long_url", "http://google.com"], ["created_at", "2018-05-21 07:16:26.906474"], ["updated_at", "2018-05-21 07:16:26.906474"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "links" SET "short_url" = '56bec0' WHERE "links"."id" = ?[0m  [["id", 14]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 84415ms (Views: 0.1ms | ActiveRecord: 3.3ms)
+
+
+  [1m[36mLink Load (0.3ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35mSQL (3.0ms)[0m  [1m[31mDELETE FROM "links"[0m
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-21 12:46:54 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "links" ("long_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["long_url", "http://google.com"], ["created_at", "2018-05-21 07:17:29.173949"], ["updated_at", "2018-05-21 07:17:29.173949"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "links" SET "short_url" = '6c1f73' WHERE "links"."id" = ?[0m  [["id", 15]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 38832ms (Views: 0.1ms | ActiveRecord: 3.7ms)
+
+
+  [1m[35mSQL (3.0ms)[0m  [1m[31mDELETE FROM "links"[0m
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-21 12:47:37 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "links" ("id", "uid", "long_url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["id", 1], ["uid", "b"], ["long_url", "http://google.com"], ["created_at", "2018-05-21 07:18:13.318116"], ["updated_at", "2018-05-21 07:18:13.318116"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "links" SET "short_url" = '72000a' WHERE "links"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 48015ms (Views: 0.1ms | ActiveRecord: 2.1ms)
+
+
+  [1m[35mSQL (2.8ms)[0m  [1m[31mDELETE FROM "links"[0m
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-21 12:48:49 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "links" ("id", "uid", "long_url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["id", 1], ["uid", ""], ["long_url", "http://google.com"], ["created_at", "2018-05-21 07:19:59.890989"], ["updated_at", "2018-05-21 07:19:59.890989"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "links" SET "short_url" = '30692f' WHERE "links"."id" = ?[0m  [["id", 1]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 70999ms (Views: 0.2ms | ActiveRecord: 4.2ms)
+
+
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35mSQL (3.0ms)[0m  [1m[31mDELETE FROM "links"[0m
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-21 12:50:21 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 1.5ms)
+
+
+  
+ActiveRecord::ActiveRecordError (cannot update a new record):
+  
+app/models/link.rb:38:in `generate_short_url'
+app/models/link.rb:19:in `check_validity'
+app/controllers/links_controller.rb:21:in `create'
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-21 12:51:04 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[36mLink Load (0.3ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "links" ("id", "uid", "long_url", "short_url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 1], ["uid", ""], ["long_url", "http://google.com"], ["short_url", "364ce8"], ["created_at", "2018-05-21 07:22:30.167364"], ["updated_at", "2018-05-21 07:22:30.167364"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "links" SET "short_url" = 'f96c72' WHERE "links"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 86704ms (Views: 0.2ms | ActiveRecord: 2.1ms)
+
+
+  [1m[36mLink Load (0.4ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35mSQL (3.0ms)[0m  [1m[31mDELETE FROM "links"[0m
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-21 12:52:38 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "links" ("id", "uid", "long_url", "short_url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["id", 1], ["uid", "a"], ["long_url", "http://google.com"], ["short_url", "df8db7"], ["created_at", "2018-05-21 07:22:57.613079"], ["updated_at", "2018-05-21 07:22:57.613079"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "links" SET "short_url" = '7988af' WHERE "links"."id" = ?[0m  [["id", 1]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Completed 200 OK in 68081ms (Views: 0.1ms | ActiveRecord: 3.9ms)
+
+
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-21 12:53:54 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "links" ("long_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["long_url", "http://google.com"], ["created_at", "2018-05-21 07:23:54.612111"], ["updated_at", "2018-05-21 07:23:54.612111"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "links" SET "short_url" = '59a72a' WHERE "links"."id" = ?[0m  [["id", 16]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Completed 200 OK in 36354ms (Views: 0.1ms | ActiveRecord: 2.5ms)
+
+
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-21 12:54:34 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 422 Unprocessable Entity in 46ms (ActiveRecord: 0.9ms)
+
+
+  
+ActiveRecord::RecordInvalid (Validation failed: Uid has already been taken):
+  
+app/controllers/links_controller.rb:21:in `create'
+  [1m[35mSQL (3.0ms)[0m  [1m[31mDELETE FROM "links"[0m
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-21 12:54:52 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "links" ("id", "uid", "long_url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["id", 1], ["uid", "a"], ["long_url", "http://google.com"], ["created_at", "2018-05-21 07:24:57.027235"], ["updated_at", "2018-05-21 07:24:57.027235"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "links" SET "short_url" = 'c6ca5e' WHERE "links"."id" = ?[0m  [["id", 1]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 5213ms (Views: 0.1ms | ActiveRecord: 3.0ms)
+
+
+  [1m[36mLink Load (0.3ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-21 12:55:05 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "links" ("long_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["long_url", "http://google.com"], ["created_at", "2018-05-21 07:25:05.426792"], ["updated_at", "2018-05-21 07:25:05.426792"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "links" SET "short_url" = '6d65e1' WHERE "links"."id" = ?[0m  [["id", 17]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Completed 200 OK in 18282ms (Views: 0.1ms | ActiveRecord: 3.2ms)
+
+
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35mSQL (3.2ms)[0m  [1m[31mDELETE FROM "links"[0m
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-21 12:58:19 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "links" ("id", "uid", "long_url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["id", 1], ["uid", "a"], ["long_url", "http://google.com"], ["created_at", "2018-05-21 07:28:23.874127"], ["updated_at", "2018-05-21 07:28:23.874127"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "links" SET "short_url" = '426128' WHERE "links"."id" = ?[0m  [["id", 1]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Completed 200 OK in 6558ms (Views: 0.1ms | ActiveRecord: 3.8ms)
+
+
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-21 12:58:30 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 422 Unprocessable Entity in 2ms (ActiveRecord: 0.3ms)
+
+
+  
+ActiveRecord::RecordNotSaved (Failed to save the record):
+  
+app/controllers/links_controller.rb:21:in `create'
+  [1m[35mSQL (3.3ms)[0m  [1m[31mDELETE FROM "links"[0m
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-21 12:59:36 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "links" ("id", "uid", "long_url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["id", 1], ["uid", "a"], ["long_url", "http://google.com"], ["created_at", "2018-05-21 07:29:39.460600"], ["updated_at", "2018-05-21 07:29:39.460600"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "links" SET "short_url" = 'c0fe8a' WHERE "links"."id" = ?[0m  [["id", 1]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 3661ms (Views: 0.1ms | ActiveRecord: 3.8ms)
+
+
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-21 12:59:45 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "links" ("long_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["long_url", "http://google.com"], ["created_at", "2018-05-21 07:29:45.995760"], ["updated_at", "2018-05-21 07:29:45.995760"]]
+  [1m[35mSQL (0.0ms)[0m  [1m[33mUPDATE "links" SET "short_url" = 'c4ab9e' WHERE "links"."id" = ?[0m  [["id", 18]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 8698ms (Views: 0.1ms | ActiveRecord: 3.0ms)
+
+
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35mSQL (3.2ms)[0m  [1m[31mDELETE FROM "links"[0m
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-21 13:05:59 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "links" ("id", "uid", "long_url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["id", 1], ["uid", "a"], ["long_url", "http://www.google.com"], ["created_at", "2018-05-21 07:36:02.395600"], ["updated_at", "2018-05-21 07:36:02.395600"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "links" SET "short_url" = 'f35989' WHERE "links"."id" = ?[0m  [["id", 1]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Completed 200 OK in 13244ms (Views: 0.1ms | ActiveRecord: 4.0ms)
+
+
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-21 13:06:19 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "links" ("long_url", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["long_url", "http://google.com"], ["created_at", "2018-05-21 07:37:02.410284"], ["updated_at", "2018-05-21 07:37:02.410284"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "links" SET "short_url" = '591601' WHERE "links"."id" = ?[0m  [["id", 19]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 44267ms (Views: 0.1ms | ActiveRecord: 2.9ms)
+
+
+  [1m[35mSQL (3.3ms)[0m  [1m[31mDELETE FROM "links"[0m
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-21 13:07:50 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "links" ("id", "uid", "long_url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["id", 1], ["uid", "a"], ["long_url", "http://www.google.com"], ["created_at", "2018-05-21 07:37:53.552067"], ["updated_at", "2018-05-21 07:37:53.552067"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "links" SET "short_url" = '5b070c' WHERE "links"."id" = ?[0m  [["id", 1]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 3704ms (Views: 0.1ms | ActiveRecord: 3.6ms)
+
+
+  [1m[36mLink Load (0.3ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-21 13:08:04 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.5ms)
+
+
+  
+ActiveRecord::RecordNotSaved (Failed to save the record):
+  
+app/controllers/links_controller.rb:21:in `create'
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-21 13:09:31 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 290044ms (ActiveRecord: 0.9ms)
+
+
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started POST "/links?url=https://google.com" for 127.0.0.1 at 2018-05-21 13:14:39 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://google.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 3483ms (ActiveRecord: 0.9ms)
+
+
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35mSQL (3.5ms)[0m  [1m[31mDELETE FROM "links"[0m
+Started POST "/links?url=https://google.com" for 127.0.0.1 at 2018-05-21 14:27:00 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://google.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "links" ("id", "uid", "long_url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["id", 1], ["uid", "a"], ["long_url", "http://www.google.com"], ["created_at", "2018-05-21 08:57:04.293082"], ["updated_at", "2018-05-21 08:57:04.293082"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "links" SET "short_url" = '99cc45' WHERE "links"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 4801ms (Views: 0.1ms | ActiveRecord: 2.1ms)
+
+
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started POST "/links?url=https://google.com" for 127.0.0.1 at 2018-05-21 14:27:13 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://google.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 3470ms (ActiveRecord: 0.6ms)
+
+
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started POST "/links?url=https://google.com?p1=a%26p2=b" for 127.0.0.1 at 2018-05-21 14:27:42 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://google.com?p1=a&p2=b"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 9356ms (ActiveRecord: 0.4ms)
+
+
+Started POST "/links?url=https://google.com?p1=a%26p2=b" for 127.0.0.1 at 2018-05-21 14:28:04 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://google.com?p1=a&p2=b"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 282629ms (ActiveRecord: 0.9ms)
+
+
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started POST "/links?url=https://google.com?p1=a%26p2=b" for 127.0.0.1 at 2018-05-21 14:32:59 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://google.com?p1=a&p2=b"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "links" ("id", "uid", "long_url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["id", 2], ["uid", "b"], ["long_url", "http://www.google.com?p1=a&p2=b"], ["created_at", "2018-05-21 09:03:24.121904"], ["updated_at", "2018-05-21 09:03:24.121904"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "links" SET "short_url" = '05536f' WHERE "links"."id" = ?[0m  [["id", 2]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 26643ms (Views: 0.2ms | ActiveRecord: 3.7ms)
+
+
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[36mLink Load (0.3ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35mSQL (3.0ms)[0m  [1m[31mDELETE FROM "links"[0m
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started POST "/links?url=https://google.com" for 127.0.0.1 at 2018-05-21 14:36:07 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://google.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "links" ("id", "uid", "long_url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["id", 1], ["uid", "a"], ["long_url", "http://www.google.com"], ["created_at", "2018-05-21 09:06:07.071716"], ["updated_at", "2018-05-21 09:06:07.071716"]]
+  [1m[35mSQL (0.0ms)[0m  [1m[33mUPDATE "links" SET "short_url" = 'd74138' WHERE "links"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 7807ms (Views: 0.1ms | ActiveRecord: 2.1ms)
+
+
+Started POST "/links?url=https://google.com?p1=p1%26p2=p2" for 127.0.0.1 at 2018-05-21 14:37:04 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://google.com?p1=p1&p2=p2"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "links" ("id", "uid", "long_url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["id", 2], ["uid", "b"], ["long_url", "http://www.google.com?p1=p1&p2=p2"], ["created_at", "2018-05-21 09:07:04.757016"], ["updated_at", "2018-05-21 09:07:04.757016"]]
+  [1m[35mSQL (0.0ms)[0m  [1m[33mUPDATE "links" SET "short_url" = '59465e' WHERE "links"."id" = ?[0m  [["id", 2]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 13ms (Views: 0.1ms | ActiveRecord: 1.8ms)
+
+
+  [1m[36mLink Load (0.3ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started POST "/links?url=https://google.com?p1=p1%26p2=p2" for 127.0.0.1 at 2018-05-21 14:37:12 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://google.com?p1=p1&p2=p2"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 3ms (ActiveRecord: 0.4ms)
+
+
+Started POST "/links?url=https://google.com?p1=p1%26p2=p2%26p3=p3" for 127.0.0.1 at 2018-05-21 14:37:41 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://google.com?p1=p1&p2=p2&p3=p3"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "links" ("id", "uid", "long_url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["id", 3], ["uid", "c"], ["long_url", "http://www.google.com?p1=p1&p2=p2&p3=p3"], ["created_at", "2018-05-21 09:07:41.374298"], ["updated_at", "2018-05-21 09:07:41.374298"]]
+  [1m[35mSQL (0.0ms)[0m  [1m[33mUPDATE "links" SET "short_url" = '1eb471' WHERE "links"."id" = ?[0m  [["id", 3]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/links?url=https://google.com?p1=p1%26p3=p3%26p2=p2" for 127.0.0.1 at 2018-05-21 14:38:01 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://google.com?p1=p1&p3=p3&p2=p2"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 3ms (ActiveRecord: 0.4ms)
+
+
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "links"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateLinks (20180515084628)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "links" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "uid" varchar, "long_url" text, "short_url" varchar, "status_code" integer DEFAULT 301, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_links_on_uid" ON "links" ("uid")[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180515084628"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-05-21 09:11:10.522604"], ["updated_at", "2018-05-21 09:11:10.522604"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_links_on_uid' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_links_on_uid' AND type='index'
+[0m
+  [1m[36mLink Load (1.7ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started POST "/links?url=https://google.com?p1=p1%26p3=p3%26p2=p2" for 127.0.0.1 at 2018-05-21 14:41:31 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://google.com?p1=p1&p3=p3&p2=p2"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "links" ("id", "uid", "long_url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["id", 1], ["uid", "a"], ["long_url", "http://www.google.com"], ["created_at", "2018-05-21 09:11:31.726576"], ["updated_at", "2018-05-21 09:11:31.726576"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "links" SET "short_url" = '9edc0d' WHERE "links"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 24ms (Views: 0.2ms | ActiveRecord: 1.9ms)
+
+
+  [1m[36mLink Load (0.3ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (2.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateLinks (20180515084628)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "links" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "uid" varchar, "long_url" text, "short_url" varchar, "status_code" integer DEFAULT 301, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_links_on_uid" ON "links" ("uid")[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180515084628"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-05-21 09:12:00.090153"], ["updated_at", "2018-05-21 09:12:00.090153"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_links_on_uid' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_links_on_uid' AND type='index'
+[0m
+Started POST "/links?url=https://google.com?p1=p1%26p3=p3%26p2=p2" for 127.0.0.1 at 2018-05-21 14:42:09 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://google.com?p1=p1&p3=p3&p2=p2"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "links" ("id", "uid", "long_url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["id", 1], ["uid", "a"], ["long_url", "http://www.google.com"], ["created_at", "2018-05-21 09:12:09.417741"], ["updated_at", "2018-05-21 09:12:09.417741"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "links" SET "short_url" = 'e83d60' WHERE "links"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 22ms (Views: 0.1ms | ActiveRecord: 2.1ms)
+
+
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started POST "/links?url=https://google.com?p1=p1%26p3=p3%26p2=p2" for 127.0.0.1 at 2018-05-21 14:42:20 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://google.com?p1=p1&p3=p3&p2=p2"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "links" ("id", "uid", "long_url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["id", 2], ["uid", "b"], ["long_url", "http://www.google.com?p1=p1&p3=p3&p2=p2"], ["created_at", "2018-05-21 09:12:20.750333"], ["updated_at", "2018-05-21 09:12:20.750333"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "links" SET "short_url" = '55813b' WHERE "links"."id" = ?[0m  [["id", 2]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 3.1ms)
+
+
+Started POST "/links?url=https://google.com" for 127.0.0.1 at 2018-05-21 14:42:27 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://google.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 3ms (ActiveRecord: 0.3ms)
+
+
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started GET "/9edc0d" for 127.0.0.1 at 2018-05-21 14:44:31 +0530
+Processing by LinksController#relay as HTML
+  Parameters: {"short_url"=>"9edc0d"}
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "9edc0d"], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.6ms)
+
+
+  
+NoMethodError (undefined method `long_url' for nil:NilClass):
+  
+app/controllers/links_controller.rb:6:in `relay'
+Started GET "/9edc0d" for 127.0.0.1 at 2018-05-21 14:45:04 +0530
+Processing by LinksController#relay as HTML
+  Parameters: {"short_url"=>"9edc0d"}
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "9edc0d"], ["LIMIT", 1]]
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "9edc0d"], ["LIMIT", 1]]
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[36mLink Load (1.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started GET "/e83d60" for 127.0.0.1 at 2018-05-21 14:46:41 +0530
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "9edc0d"], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 113650ms (ActiveRecord: 1.6ms)
+
+
+  
+NoMethodError (undefined method `long_url' for nil:NilClass):
+  
+app/controllers/links_controller.rb:7:in `relay'
+Processing by LinksController#relay as HTML
+  Parameters: {"short_url"=>"e83d60"}
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "e83d60"], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "e83d60"], ["LIMIT", 1]]
+Redirected to http://www.google.com
+Completed 301 Moved Permanently in 15911ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/links" for 127.0.0.1 at 2018-05-21 14:50:32 +0530
+Processing by LinksController#index as HTML
+  [1m[36mLink Load (0.3ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Completed 200 OK in 10ms (Views: 5.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/links" for 127.0.0.1 at 2018-05-21 14:51:34 +0530
+Processing by LinksController#index as HTML
+  [1m[36mLink Load (0.3ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.7ms)
+
+
+  
+JSON::GeneratorError (only generation of JSON objects or arrays allowed):
+  
+app/controllers/links_controller.rb:9:in `index'
+Started GET "/links" for 127.0.0.1 at 2018-05-21 14:51:50 +0530
+Processing by LinksController#index as HTML
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Completed 200 OK in 10ms (Views: 5.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/links" for 127.0.0.1 at 2018-05-21 14:53:37 +0530
+Processing by LinksController#index as HTML
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.6ms)
+
+
+  
+TypeError (["long_url", "short_url"] is not a symbol nor a string):
+  
+app/controllers/links_controller.rb:9:in `block in index'
+app/controllers/links_controller.rb:9:in `index'
+Started GET "/links" for 127.0.0.1 at 2018-05-21 14:54:53 +0530
+Processing by LinksController#index as HTML
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/links" for 127.0.0.1 at 2018-05-21 14:55:26 +0530
+  
+SyntaxError (/Users/av041881/Desktop/project/shortly/app/controllers/links_controller.rb:9: syntax error, unexpected '(', expecting ')'
+    links = Link.all.map(&:slice('long_url', 'short_url'))
+                                 ^
+/Users/av041881/Desktop/project/shortly/app/controllers/links_controller.rb:9: syntax error, unexpected ',', expecting keyword_end
+    links = Link.all.map(&:slice('long_url', 'short_url'))
+                                            ^
+/Users/av041881/Desktop/project/shortly/app/controllers/links_controller.rb:9: syntax error, unexpected ')', expecting keyword_end
+    links = Link.all.map(&:slice('long_url', 'short_url'))
+                                                         ^):
+  
+app/controllers/links_controller.rb:9: syntax error, unexpected '(', expecting ')'
+app/controllers/links_controller.rb:9: syntax error, unexpected ',', expecting keyword_end
+app/controllers/links_controller.rb:9: syntax error, unexpected ')', expecting keyword_end
+Started GET "/links" for 127.0.0.1 at 2018-05-21 14:55:34 +0530
+Processing by LinksController#index as HTML
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Completed 200 OK in 9ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/links/e83d60" for 127.0.0.1 at 2018-05-21 15:00:10 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LinksController#show as HTML
+  Parameters: {"id"=>"e83d60"}
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "e83d60"], ["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "e83d60"], ["LIMIT", 1]]
+Completed 200 OK in 27659ms (Views: 0.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/links/e83d60" for 127.0.0.1 at 2018-05-21 15:00:51 +0530
+Processing by LinksController#show as HTML
+  Parameters: {"id"=>"e83d60"}
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "e83d60"], ["LIMIT", 1]]
+Completed 200 OK in 9ms (Views: 0.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/links/e83d60" for 127.0.0.1 at 2018-05-21 15:01:08 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LinksController#show as HTML
+  Parameters: {"id"=>"e83d60"}
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "e83d60"], ["LIMIT", 1]]
+Completed 200 OK in 12ms (Views: 0.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/links/e83d60" for 127.0.0.1 at 2018-05-21 15:02:10 +0530
+Processing by LinksController#show as HTML
+  Parameters: {"id"=>"e83d60"}
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "e83d60"], ["LIMIT", 1]]
+Completed 200 OK in 9ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/links/e83d60" for 127.0.0.1 at 2018-05-21 15:03:00 +0530
+Processing by LinksController#show as HTML
+  Parameters: {"id"=>"e83d60"}
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "e83d60"], ["LIMIT", 1]]
+Completed 200 OK in 10ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/links/blah" for 127.0.0.1 at 2018-05-21 15:03:48 +0530
+Processing by LinksController#show as HTML
+  Parameters: {"id"=>"blah"}
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "blah"], ["LIMIT", 1]]
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/links/blah" for 127.0.0.1 at 2018-05-21 15:05:42 +0530
+Processing by LinksController#show as HTML
+  Parameters: {"id"=>"blah"}
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "blah"], ["LIMIT", 1]]
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/links/blah" for 127.0.0.1 at 2018-05-21 15:07:34 +0530
+Processing by LinksController#show as HTML
+  Parameters: {"id"=>"blah"}
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "blah"], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.7ms)
+
+
+  
+NoMethodError (undefined method `slice' for nil:NilClass):
+  
+app/controllers/links_controller.rb:14:in `show'
+Started GET "/links/blah" for 127.0.0.1 at 2018-05-21 15:08:07 +0530
+Processing by LinksController#show as HTML
+  Parameters: {"id"=>"blah"}
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "blah"], ["LIMIT", 1]]
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/links/e83d60" for 127.0.0.1 at 2018-05-21 15:08:12 +0530
+Processing by LinksController#show as HTML
+  Parameters: {"id"=>"e83d60"}
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "e83d60"], ["LIMIT", 1]]
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/links/e83d60fjh" for 127.0.0.1 at 2018-05-21 15:08:16 +0530
+Processing by LinksController#show as HTML
+  Parameters: {"id"=>"e83d60fjh"}
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "e83d60fjh"], ["LIMIT", 1]]
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/links/e83d60f" for 127.0.0.1 at 2018-05-21 15:08:19 +0530
+Processing by LinksController#show as HTML
+  Parameters: {"id"=>"e83d60f"}
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "e83d60f"], ["LIMIT", 1]]
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/links/e83d60" for 127.0.0.1 at 2018-05-21 15:08:21 +0530
+Processing by LinksController#show as HTML
+  Parameters: {"id"=>"e83d60"}
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "e83d60"], ["LIMIT", 1]]
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/links/blah" for 127.0.0.1 at 2018-05-21 15:23:22 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LinksController#destroy as */*
+  Parameters: {"url"=>"blah"}
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE (blah) LIMIT ?[0m  [["LIMIT", 1]]
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.2ms)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: blah: SELECT  "links".* FROM "links" WHERE (blah) LIMIT ?):
+  
+app/controllers/links_controller.rb:33:in `destroy'
+Started DELETE "/links/blah" for 127.0.0.1 at 2018-05-21 15:23:44 +0530
+Processing by LinksController#destroy as */*
+  Parameters: {"url"=>"blah"}
+  [1m[36mLink Load (0.4ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE (blah) LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "blah"], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "blah"], ["LIMIT", 1]]
+  [1m[36mLink Load (0.3ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE (blah) LIMIT ?[0m  [["LIMIT", 1]]
+Completed 500 Internal Server Error in 142606ms (ActiveRecord: 1.3ms)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: blah: SELECT  "links".* FROM "links" WHERE (blah) LIMIT ?):
+  
+app/controllers/links_controller.rb:34:in `destroy'
+Started DELETE "/links/blah" for 127.0.0.1 at 2018-05-21 15:31:28 +0530
+Processing by LinksController#destroy as */*
+  Parameters: {"url"=>"blah"}
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "blah"], ["LIMIT", 1]]
+Completed 204 No Content in 5ms (ActiveRecord: 0.5ms)
+
+
+  [1m[36mLink Load (0.9ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started DELETE "/links/e83d60" for 127.0.0.1 at 2018-05-21 15:32:03 +0530
+Processing by LinksController#destroy as */*
+  Parameters: {"url"=>"e83d60"}
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "e83d60"], ["LIMIT", 1]]
+  [1m[35mSQL (1.4ms)[0m  [1m[31mDELETE FROM "links" WHERE "links"."id" = ?[0m  [["id", 1]]
+DEPRECATION WARNING: `:nothing` option is deprecated and will be removed in Rails 5.1. Use `head` method to respond with empty response body. (called from destroy at /Users/av041881/Desktop/project/shortly/app/controllers/links_controller.rb:34)
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 2.0ms)
+
+
+  [1m[36mLink Load (0.4ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started DELETE "/links/e83d60" for 127.0.0.1 at 2018-05-21 15:32:25 +0530
+Processing by LinksController#destroy as */*
+  Parameters: {"url"=>"e83d60"}
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "e83d60"], ["LIMIT", 1]]
+Completed 204 No Content in 5ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/links/?url=google.com" for 127.0.0.1 at 2018-05-21 15:33:28 +0530
+Processing by LinksController#index as */*
+  Parameters: {"url"=>"google.com"}
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/links?url=google.com" for 127.0.0.1 at 2018-05-21 15:34:31 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"google.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 13ms (ActiveRecord: 0.3ms)
+
+
+Started POST "/links?url=fb.com" for 127.0.0.1 at 2018-05-21 15:34:43 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"fb.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 2ms (ActiveRecord: 0.3ms)
+
+
+Started POST "/links?url=fb.com" for 127.0.0.1 at 2018-05-21 15:35:06 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"fb.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 13ms (ActiveRecord: 0.9ms)
+
+
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started POST "/links?url=fb.com" for 127.0.0.1 at 2018-05-21 15:37:15 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"fb.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 7212ms (ActiveRecord: 0.9ms)
+
+
+Started POST "/links?url=fb.com" for 127.0.0.1 at 2018-05-21 15:37:51 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"fb.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 315860ms (ActiveRecord: 0.4ms)
+
+
+Started POST "/links?url=fb.com" for 127.0.0.1 at 2018-05-21 15:43:10 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"fb.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 3800ms (ActiveRecord: 1.0ms)
+
+
+Started POST "/links?url=fb.com" for 127.0.0.1 at 2018-05-21 15:43:27 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"fb.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started POST "/links?url=fb.com" for 127.0.0.1 at 2018-05-21 15:44:42 +0530
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 83956ms (ActiveRecord: 1.2ms)
+
+
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"fb.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 1702ms (ActiveRecord: 1.0ms)
+
+
+Started POST "/links?url=fb.com" for 127.0.0.1 at 2018-05-21 15:45:08 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"fb.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 41499ms (ActiveRecord: 1.1ms)
+
+
+Started POST "/links?url=fb.com" for 127.0.0.1 at 2018-05-21 15:46:57 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"fb.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 29067ms (ActiveRecord: 1.2ms)
+
+
+Started POST "/links?url=fb.com" for 127.0.0.1 at 2018-05-21 15:47:40 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"fb.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 16696ms (ActiveRecord: 1.0ms)
+
+
+Started POST "/links?url=fb.com" for 127.0.0.1 at 2018-05-21 15:48:27 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"fb.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 11ms (ActiveRecord: 0.8ms)
+
+
+Started POST "/links?url=fb.com" for 127.0.0.1 at 2018-05-21 15:48:40 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"fb.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started POST "/links?url=fb.com" for 127.0.0.1 at 2018-05-21 15:51:47 +0530
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 203639ms (ActiveRecord: 1.0ms)
+
+
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"fb.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 17ms (ActiveRecord: 4.7ms)
+
+
+Started POST "/links?url=fb.com" for 127.0.0.1 at 2018-05-21 15:52:15 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"fb.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 22ms (ActiveRecord: 0.9ms)
+
+
+Started POST "/links?url=fb.com" for 127.0.0.1 at 2018-05-21 15:52:27 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"fb.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 14ms (ActiveRecord: 1.1ms)
+
+
+Started POST "/links?url=fb.com" for 127.0.0.1 at 2018-05-21 15:52:48 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"fb.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 7419ms (ActiveRecord: 1.0ms)
+
+
+Started POST "/links?url=fb.com" for 127.0.0.1 at 2018-05-21 15:53:21 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"fb.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 545755ms (ActiveRecord: 0.6ms)
+
+
+Started POST "/links?url=fb.com" for 127.0.0.1 at 2018-05-21 16:02:29 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"fb.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "links" ("id", "uid", "long_url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["id", 3], ["uid", "c"], ["long_url", "http://www.fb.com"], ["created_at", "2018-05-21 10:32:29.786613"], ["updated_at", "2018-05-21 10:32:29.786613"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "links" SET "short_url" = 'a48710' WHERE "links"."id" = ?[0m  [["id", 3]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 16ms (Views: 0.1ms | ActiveRecord: 2.0ms)
+
+
+  [1m[36mLink Load (0.3ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started POST "/links?url=https://fb.com" for 127.0.0.1 at 2018-05-21 16:02:54 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://fb.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."uid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 3ms (ActiveRecord: 0.4ms)
+
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateLinks (20180515084628)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "links" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "long_url" text, "short_url" varchar, "status_code" integer DEFAULT 301, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_links_on_short_url" ON "links" ("short_url")[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180515084628"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-05-21 10:37:17.999688"], ["updated_at", "2018-05-21 10:37:17.999688"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_links_on_short_url' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_links_on_short_url' AND type='index'
+[0m
+Started POST "/links?url=http://google.com" for 127.0.0.1 at 2018-05-21 16:10:11 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://google.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "links" ("id", "long_url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["id", 1], ["long_url", "http://www.google.com"], ["created_at", "2018-05-21 10:40:11.457264"], ["updated_at", "2018-05-21 10:40:11.457264"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "links" SET "short_url" = 'fc5733' WHERE "links"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+Completed 201 Created in 22ms (Views: 0.2ms | ActiveRecord: 2.1ms)
+
+
+  [1m[36mLink Load (1.3ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started POST "/links?url=http://fb.com" for 127.0.0.1 at 2018-05-21 16:10:51 +0530
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://fb.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "links" ("id", "long_url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["id", 2], ["long_url", "http://www.fb.com"], ["created_at", "2018-05-21 10:41:01.544389"], ["updated_at", "2018-05-21 10:41:01.544389"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "links" SET "short_url" = '93ee77' WHERE "links"."id" = ?[0m  [["id", 2]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+Completed 201 Created in 16470ms (Views: 0.3ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/links?url=http://facebook.com" for 127.0.0.1 at 2018-05-21 16:11:42 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://facebook.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "links" ("id", "long_url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["id", 3], ["long_url", "http://www.facebook.com"], ["created_at", "2018-05-21 10:41:42.039059"], ["updated_at", "2018-05-21 10:41:42.039059"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "links" SET "short_url" = 'ba93bb' WHERE "links"."id" = ?[0m  [["id", 3]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+DEPRECATION WARNING: `render :text` is deprecated because it does not actually render a `text/plain` response. Switch to `render plain: 'plain text'` to render as `text/plain`, `render html: '<strong>HTML</strong>'` to render as `text/html`, or `render body: 'raw'` to match the deprecated behavior and render with the default Content-Type, which is `text/html`. (called from create at /Users/av041881/Desktop/project/shortly/app/controllers/links_controller.rb:15)
+Completed 201 Created in 15ms (Views: 0.3ms | ActiveRecord: 2.6ms)
+
+
+Started POST "/links?url=http://youtube.com" for 127.0.0.1 at 2018-05-21 16:12:05 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"http://youtube.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "links" ("id", "long_url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["id", 4], ["long_url", "http://www.youtube.com"], ["created_at", "2018-05-21 10:42:05.200811"], ["updated_at", "2018-05-21 10:42:05.200811"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "links" SET "short_url" = '7c306e' WHERE "links"."id" = ?[0m  [["id", 4]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+Completed 201 Created in 15ms (Views: 0.1ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/links" for 127.0.0.1 at 2018-05-21 16:12:25 +0530
+Processing by LinksController#index as */*
+  [1m[36mLink Load (0.3ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/links/url%20=%20'https://google.com'" for 127.0.0.1 at 2018-05-21 16:14:13 +0530
+  
+ActionController::RoutingError (No route matches [POST] "/links/url%20=%20'https:/google.com'"):
+  
+actionpack (5.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/links?url%20=%20%27https://google.com%27" for 127.0.0.1 at 2018-05-21 16:14:22 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url "=>" 'https://google.com'"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 230702ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/links" for 127.0.0.1 at 2018-05-21 16:18:21 +0530
+Processing by LinksController#index as */*
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/links/fc5733" for 127.0.0.1 at 2018-05-21 16:18:49 +0530
+Processing by LinksController#destroy as */*
+  Parameters: {"url"=>"fc5733"}
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "fc5733"], ["LIMIT", 1]]
+  [1m[35mSQL (1.9ms)[0m  [1m[31mDELETE FROM "links" WHERE "links"."id" = ?[0m  [["id", 1]]
+DEPRECATION WARNING: The :status option on `head` has been deprecated and will be removed in Rails 5.1. Please pass the status as a separate parameter before the options, instead. (called from destroy at /Users/av041881/Desktop/project/shortly/app/controllers/links_controller.rb:34)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 2.1ms)
+
+
+Started DELETE "/links/fc5733" for 127.0.0.1 at 2018-05-21 16:19:47 +0530
+Processing by LinksController#destroy as */*
+  Parameters: {"url"=>"fc5733"}
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "fc5733"], ["LIMIT", 1]]
+Completed 204 No Content in 6ms (ActiveRecord: 0.7ms)
+
+
+  [1m[36mLink Load (0.3ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started GET "/links/fc5733" for 127.0.0.1 at 2018-05-21 16:20:05 +0530
+Processing by LinksController#show as */*
+  Parameters: {"url"=>"fc5733"}
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "fc5733"], ["LIMIT", 1]]
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/links" for 127.0.0.1 at 2018-05-21 16:20:08 +0530
+Processing by LinksController#index as */*
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/links/93ee77" for 127.0.0.1 at 2018-05-21 16:20:22 +0530
+Processing by LinksController#destroy as */*
+  Parameters: {"url"=>"93ee77"}
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "93ee77"], ["LIMIT", 1]]
+  [1m[35mSQL (0.8ms)[0m  [1m[31mDELETE FROM "links" WHERE "links"."id" = ?[0m  [["id", 2]]
+Completed 200 OK in 2ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/links/" for 127.0.0.1 at 2018-05-21 16:20:28 +0530
+Processing by LinksController#index as */*
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.1ms)
+
+
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Started POST "/links?url%20=%20%27https://facebook.com%27" for 127.0.0.1 at 2018-05-21 16:21:22 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url "=>" 'https://facebook.com'"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 28939ms (ActiveRecord: 0.3ms)
+
+
+Started POST "/links?url%20=%20%27https://facebook.com%27" for 127.0.0.1 at 2018-05-21 16:25:55 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url "=>" 'https://facebook.com'"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 9487ms (ActiveRecord: 0.8ms)
+
+
+Started POST "/links?url%20=%20%27https://facebook.com%27" for 127.0.0.1 at 2018-05-21 16:26:16 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url "=>" 'https://facebook.com'"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.8ms)
+
+
+  
+TypeError (class or module required for rescue clause):
+  
+app/controllers/links_controller.rb:16:in `rescue in create'
+app/controllers/links_controller.rb:14:in `create'
+Started POST "/links?url%20=%20%27https://facebook.com%27" for 127.0.0.1 at 2018-05-21 16:26:23 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url "=>" 'https://facebook.com'"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Started POST "/links?url%20=%20%27https://facebook.com%27" for 127.0.0.1 at 2018-05-21 16:27:00 +0530
+Completed 204 No Content in 40878ms (ActiveRecord: 1.0ms)
+
+
+Processing by LinksController#create as */*
+  Parameters: {"url "=>" 'https://facebook.com'"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 17715ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/links" for 127.0.0.1 at 2018-05-21 16:27:59 +0530
+Processing by LinksController#index as */*
+  [1m[36mLink Load (0.3ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/links?url%20=%20%27https://facebook.com%27" for 127.0.0.1 at 2018-05-21 16:28:09 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url "=>" 'https://facebook.com'"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 52643ms (ActiveRecord: 0.4ms)
+
+
+Started POST "/links?url%20=%20%27https://facebook.com%27" for 127.0.0.1 at 2018-05-21 16:29:04 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url "=>" 'https://facebook.com'"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 5084ms (ActiveRecord: 0.9ms)
+
+
+Started POST "/links?url%20=%20%27https://facebook.com%27" for 127.0.0.1 at 2018-05-21 16:29:11 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url "=>" 'https://facebook.com'"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 80895ms (ActiveRecord: 0.3ms)
+
+
+Started POST "/links?url%20=%20%27https://facebook.com%27" for 127.0.0.1 at 2018-05-21 16:30:39 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url "=>" 'https://facebook.com'"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 12952ms (ActiveRecord: 0.3ms)
+
+
+Started POST "/links/url%20=%20'https://facebook.com'" for 127.0.0.1 at 2018-05-21 16:30:59 +0530
+  
+ActionController::RoutingError (No route matches [POST] "/links/url%20=%20'https:/facebook.com'"):
+  
+actionpack (5.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/links?url%20=%20https://facebook.com" for 127.0.0.1 at 2018-05-21 16:31:18 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url "=>" https://facebook.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 129181ms (ActiveRecord: 0.3ms)
+
+
+Started POST "/links?url%20=%20https://facebook.com" for 127.0.0.1 at 2018-05-21 16:33:35 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url "=>" https://facebook.com"}
+Started POST "/links?url=https://facebook.com" for 127.0.0.1 at 2018-05-21 16:33:49 +0530
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 26750ms (ActiveRecord: 0.9ms)
+
+
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://facebook.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 66284ms (ActiveRecord: 0.9ms)
+
+
+Started POST "/links?url=https://facebook.com" for 127.0.0.1 at 2018-05-21 16:36:52 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://facebook.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 65498ms (ActiveRecord: 1.2ms)
+
+
+Started POST "/links?url=https://facebook.com" for 127.0.0.1 at 2018-05-21 16:38:01 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://facebook.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Started POST "/links?url=https://facebook.com" for 127.0.0.1 at 2018-05-21 16:39:08 +0530
+Completed 204 No Content in 70011ms (ActiveRecord: 1.9ms)
+
+
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://facebook.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (2.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 16500ms (ActiveRecord: 3.1ms)
+
+
+Started POST "/links?url=https://facebook.com" for 127.0.0.1 at 2018-05-21 16:44:11 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://facebook.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.9ms)
+
+
+  
+NoMethodError (undefined method `attribute_accessor' for DuplicateError:Class):
+  
+app/models/concerns/duplicate_error.rb:2:in `<class:DuplicateError>'
+app/models/concerns/duplicate_error.rb:1:in `<top (required)>'
+app/controllers/links_controller.rb:16:in `rescue in create'
+app/controllers/links_controller.rb:14:in `create'
+Started POST "/links?url=https://facebook.com" for 127.0.0.1 at 2018-05-21 16:44:34 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://facebook.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.8ms)
+
+
+  
+NoMethodError (undefined method `short_url' for #<Array:0x007fba100faf10>):
+  
+app/models/link.rb:39:in `check_validity'
+app/controllers/links_controller.rb:14:in `create'
+Started POST "/links?url=https://facebook.com" for 127.0.0.1 at 2018-05-21 16:45:32 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://facebook.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.8ms)
+
+
+  
+UncaughtThrowError (uncaught throw #<DuplicateError: DuplicateError>):
+  
+app/models/link.rb:39:in `throw'
+app/models/link.rb:39:in `check_validity'
+app/controllers/links_controller.rb:14:in `create'
+Started POST "/links?url=https://facebook.com" for 127.0.0.1 at 2018-05-21 16:45:52 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://facebook.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 422 Unprocessable Entity in 17ms (ActiveRecord: 1.4ms)
+
+
+  
+ActiveRecord::RecordNotSaved (Failed to save the record):
+  
+app/controllers/links_controller.rb:14:in `create'
+Started POST "/links?url=https://facebook.com" for 127.0.0.1 at 2018-05-21 16:47:54 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://facebook.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 4852ms (ActiveRecord: 0.8ms)
+
+
+  
+SystemExit (ba93bb):
+  
+app/models/link.rb:41:in `abort'
+app/models/link.rb:41:in `check_validity'
+app/controllers/links_controller.rb:14:in `create'
+Started POST "/links?url=https://facebook.com" for 127.0.0.1 at 2018-05-21 16:48:40 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://facebook.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 113379ms (ActiveRecord: 1.1ms)
+
+
+Started POST "/links?url=https://facebook.com" for 127.0.0.1 at 2018-05-21 16:50:36 +0530
+  
+SyntaxError (/Users/av041881/Desktop/project/shortly/app/controllers/links_controller.rb:16: syntax error, unexpected =>, expecting keyword_end
+  catch => error
+          ^):
+  
+app/controllers/links_controller.rb:16: syntax error, unexpected =>, expecting keyword_end
+Started GET "/controllers/links_controller.rb:16:" for 127.0.0.1 at 2018-05-21 16:50:38 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/controllers/links_controller.rb:16:"):
+  
+actionpack (5.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/links?url=https://facebook.com" for 127.0.0.1 at 2018-05-21 16:50:55 +0530
+  
+SyntaxError (/Users/av041881/Desktop/project/shortly/app/controllers/links_controller.rb:16: syntax error, unexpected =>, expecting keyword_end
+  catch => error
+          ^):
+  
+app/controllers/links_controller.rb:16: syntax error, unexpected =>, expecting keyword_end
+Started POST "/links?url=https://facebook.com" for 127.0.0.1 at 2018-05-21 16:51:00 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://facebook.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 242427ms (ActiveRecord: 1.0ms)
+
+
+Started POST "/links?url=https://facebook.com" for 127.0.0.1 at 2018-05-21 16:56:20 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://facebook.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 545647ms (ActiveRecord: 1.4ms)
+
+
+Started POST "/links?url=https://facebook.com" for 127.0.0.1 at 2018-05-21 17:08:29 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://facebook.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 98261ms (ActiveRecord: 1.0ms)
+
+
+Started POST "/links?url=https://facebook.com" for 127.0.0.1 at 2018-05-21 17:10:10 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://facebook.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 204 No Content in 73864ms (ActiveRecord: 0.9ms)
+
+
+Started POST "/links?url=https://facebook.com" for 127.0.0.1 at 2018-05-21 17:11:34 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://facebook.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/links" for 127.0.0.1 at 2018-05-21 17:11:44 +0530
+Processing by LinksController#index as */*
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/links?url=https://facebook.co.in" for 127.0.0.1 at 2018-05-21 17:11:54 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://facebook.co.in"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "links" ("id", "long_url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["id", 5], ["long_url", "http://www.facebook.co.in"], ["created_at", "2018-05-21 11:41:54.992010"], ["updated_at", "2018-05-21 11:41:54.992010"]]
+  [1m[35mSQL (0.0ms)[0m  [1m[33mUPDATE "links" SET "short_url" = 'a13fef' WHERE "links"."id" = ?[0m  [["id", 5]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+Completed 201 Created in 7ms (Views: 0.1ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/links" for 127.0.0.1 at 2018-05-21 17:11:58 +0530
+Processing by LinksController#index as */*
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/links/a13fef" for 127.0.0.1 at 2018-05-21 17:12:16 +0530
+Processing by LinksController#destroy as */*
+  Parameters: {"url"=>"a13fef"}
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "a13fef"], ["LIMIT", 1]]
+  [1m[35mSQL (0.9ms)[0m  [1m[31mDELETE FROM "links" WHERE "links"."id" = ?[0m  [["id", 5]]
+Completed 200 OK in 3ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/links" for 127.0.0.1 at 2018-05-21 17:12:19 +0530
+Processing by LinksController#index as */*
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/links" for 127.0.0.1 at 2018-05-21 17:53:51 +0530
+Processing by LinksController#index as */*
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Completed 200 OK in 9ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/links?url=https://facebook.co.in" for 127.0.0.1 at 2018-05-21 17:53:56 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://facebook.co.in"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "links" ("id", "long_url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["id", 5], ["long_url", "http://www.facebook.co.in"], ["created_at", "2018-05-21 12:23:56.500589"], ["updated_at", "2018-05-21 12:23:56.500589"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "links" SET "short_url" = 'c2953a' WHERE "links"."id" = ?[0m  [["id", 5]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+Completed 201 Created in 8ms (Views: 0.1ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/links" for 127.0.0.1 at 2018-05-21 17:53:59 +0530
+Processing by LinksController#index as */*
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/links/c2953a" for 127.0.0.1 at 2018-05-21 17:54:16 +0530
+Processing by LinksController#show as */*
+  Parameters: {"url"=>"c2953a"}
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "c2953a"], ["LIMIT", 1]]
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/c2953a" for 127.0.0.1 at 2018-05-21 17:54:32 +0530
+Processing by LinksController#relay as HTML
+  Parameters: {"short_url"=>"c2953a"}
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "c2953a"], ["LIMIT", 1]]
+Redirected to http://www.facebook.co.in
+Completed 301 Moved Permanently in 6ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/7c306e" for 127.0.0.1 at 2018-05-21 17:55:15 +0530
+Processing by LinksController#relay as HTML
+  Parameters: {"short_url"=>"7c306e"}
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "7c306e"], ["LIMIT", 1]]
+Redirected to http://www.youtube.com
+Completed 301 Moved Permanently in 1ms (ActiveRecord: 0.1ms)
+
+
+Started POST "/links?url=https://www.youtube.com/results?search_query=nee+nenaindal" for 127.0.0.1 at 2018-05-21 17:55:56 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://www.youtube.com/results?search_query=nee nenaindal"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "links" ("id", "long_url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["id", 6], ["long_url", "http://www.youtube.com?search_query=nee nenaindal"], ["created_at", "2018-05-21 12:25:56.641873"], ["updated_at", "2018-05-21 12:25:56.641873"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "links" SET "short_url" = '98e430' WHERE "links"."id" = ?[0m  [["id", 6]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Completed 201 Created in 4ms (Views: 0.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/links" for 127.0.0.1 at 2018-05-21 17:55:59 +0530
+Processing by LinksController#index as */*
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/98e430" for 127.0.0.1 at 2018-05-21 17:56:11 +0530
+Processing by LinksController#relay as HTML
+  Parameters: {"short_url"=>"98e430"}
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "98e430"], ["LIMIT", 1]]
+Redirected to http://www.youtube.com?search_query=nee nenaindal
+Completed 301 Moved Permanently in 1ms (ActiveRecord: 0.1ms)
+
+
+Started DELETE "/links/98e430" for 127.0.0.1 at 2018-05-21 17:58:23 +0530
+Processing by LinksController#destroy as */*
+  Parameters: {"url"=>"98e430"}
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "98e430"], ["LIMIT", 1]]
+  [1m[35mSQL (0.7ms)[0m  [1m[31mDELETE FROM "links" WHERE "links"."id" = ?[0m  [["id", 6]]
+Completed 200 OK in 8ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/links" for 127.0.0.1 at 2018-05-21 17:58:26 +0530
+Processing by LinksController#index as */*
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/links?url=https://www.youtube.com/results?search_query=nee+nenaindal" for 127.0.0.1 at 2018-05-21 17:58:30 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://www.youtube.com/results?search_query=nee nenaindal"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "links" ("id", "long_url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["id", 6], ["long_url", "http://www.youtube.com?search_query=nee nenaindal"], ["created_at", "2018-05-21 12:41:27.767715"], ["updated_at", "2018-05-21 12:41:27.767715"]]
+  [1m[35mSQL (0.0ms)[0m  [1m[33mUPDATE "links" SET "short_url" = '05e4e1' WHERE "links"."id" = ?[0m  [["id", 6]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Completed 201 Created in 777018ms (Views: 0.1ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/links" for 127.0.0.1 at 2018-05-21 18:11:34 +0530
+Processing by LinksController#index as */*
+  [1m[36mLink Load (0.3ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Completed 200 OK in 9ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started DELETE "/links/05e4e1" for 127.0.0.1 at 2018-05-21 18:11:40 +0530
+Processing by LinksController#destroy as */*
+  Parameters: {"url"=>"05e4e1"}
+  [1m[36mLink Load (0.2ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "05e4e1"], ["LIMIT", 1]]
+  [1m[35mSQL (1.0ms)[0m  [1m[31mDELETE FROM "links" WHERE "links"."id" = ?[0m  [["id", 6]]
+Completed 200 OK in 3ms (ActiveRecord: 1.2ms)
+
+
+Started POST "/links?url=https://www.youtube.com/results?search_query=nee+nenaindal" for 127.0.0.1 at 2018-05-21 18:11:46 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://www.youtube.com/results?search_query=nee nenaindal"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "links" ("id", "long_url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["id", 6], ["long_url", "http://www.youtube.com/results?search_query=nee nenaindal"], ["created_at", "2018-05-21 12:41:46.342373"], ["updated_at", "2018-05-21 12:41:46.342373"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "links" SET "short_url" = 'd0297d' WHERE "links"."id" = ?[0m  [["id", 6]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+Completed 201 Created in 8ms (Views: 0.1ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/links" for 127.0.0.1 at 2018-05-21 18:11:50 +0530
+Processing by LinksController#index as */*
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/links?url=youtube.com/results?search_query=nee+nenaindal" for 127.0.0.1 at 2018-05-21 18:12:06 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"youtube.com/results?search_query=nee nenaindal"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/links?url=https://www.youtube.com/watch?v=ky9SatRoyCY" for 127.0.0.1 at 2018-05-21 18:13:14 +0530
+Processing by LinksController#create as */*
+  Parameters: {"url"=>"https://www.youtube.com/watch?v=ky9SatRoyCY"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLink Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "links" WHERE "links"."short_url" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT MAX("links"."id") FROM "links"[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "links" ("id", "long_url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["id", 7], ["long_url", "http://www.youtube.com/watch?v=ky9SatRoyCY"], ["created_at", "2018-05-21 12:43:14.935459"], ["updated_at", "2018-05-21 12:43:14.935459"]]
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "links" SET "short_url" = '1b1579' WHERE "links"."id" = ?[0m  [["id", 7]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Completed 201 Created in 4ms (Views: 0.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/links" for 127.0.0.1 at 2018-05-21 18:13:17 +0530
+Processing by LinksController#index as */*
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT "links".* FROM "links"[0m
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/1b1579" for 127.0.0.1 at 2018-05-21 18:13:43 +0530
+Processing by LinksController#relay as HTML
+  Parameters: {"short_url"=>"1b1579"}
+  [1m[36mLink Load (0.1ms)[0m  [1m[34mSELECT  "links".* FROM "links" WHERE "links"."short_url" = ? LIMIT ?[0m  [["short_url", "1b1579"], ["LIMIT", 1]]
+Redirected to http://www.youtube.com/watch?v=ky9SatRoyCY
+Completed 301 Moved Permanently in 1ms (ActiveRecord: 0.1ms)
+
+
