@@ -12,9 +12,9 @@ class LinksController < ApplicationController
 
   def create
     link = Link.create!(long_url: params[:url])
-    render plain: link.short_url, status: :created
+    render plain: "#{request.domain}:#{request.port}/#{link.short_url}", status: :created
   rescue => error
-    render plain: error.record.errors.messages[:duplicate].first, status: :ok
+    render plain: "#{request.domain}:#{request.port}/#{error.record.errors.messages[:duplicate].first}", status: :ok
   end
 
   def show

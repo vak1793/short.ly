@@ -24,7 +24,7 @@ class Link < ApplicationRecord
 
   def check_validity
     url_path = extract_domain_name(self.long_url)
-    url_params = self.long_url.split('?').last
+    url_params = self.long_url.split('?').last if self.long_url.include? '?'
 
     if url_params.present?
       formatted_url = "http://www.#{url_path}?#{url_params}"
@@ -61,10 +61,10 @@ class Link < ApplicationRecord
   def extract_domain_name(url)
     if url.include? "://"
       domain = url.split('/')[2]
-      path = url.split('/')[3..-1].join('').split('?').first
+      path = url.split('/')[3..-1].join('').split('?').first if url.count('/') > 2
     else
       domain = url.split('/')[0]
-      path = url.split('/')[1..-1].join('').split('?').first
+      path = url.split('/')[1..-1].join('').split('?').first if url.count('/') > 0
     end
 
     # find & remove port number
@@ -84,6 +84,7 @@ class Link < ApplicationRecord
       end
     end
 
-    [domain, path].join('/')
+    domain = "#{domain}/#{path}" if path.present?
+    domain
   end
 end
