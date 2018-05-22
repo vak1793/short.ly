@@ -11,6 +11,10 @@ Install rvm from [here](https://rvm.io/)
 * Use [postman](https://www.getpostman.com/) or the UI [form](https://github.com/vak1793/shorten-me) to create shortened urls
 * Use the shortened URL as you would use any url
 
+### Known Issues
+
+* When running on port 80 the UI link on shorten-me goes to `localhost:3000/short.ly/asdfg` instead of `short.ly/asdfg`. This is an UI only issue
+
 ## Endpoints
 ### 1. List
 HTTP Method - GET
