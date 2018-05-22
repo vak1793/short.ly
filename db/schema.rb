@@ -12,13 +12,14 @@
 
 ActiveRecord::Schema.define(version: 20180515084628) do
 
-  create_table "links", force: :cascade do |t|
-    t.text     "long_url"
+  create_table "links", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.text     "long_url",     limit: 65535
     t.string   "short_url"
-    t.integer  "status_code", default: 301
-    t.datetime "created_at",                null: false
-    t.datetime "updated_at",                null: false
-    t.index ["short_url"], name: "index_links_on_short_url"
+    t.integer  "status_code",                default: 301
+    t.integer  "lock_version"
+    t.datetime "created_at",                               null: false
+    t.datetime "updated_at",                               null: false
+    t.index ["short_url"], name: "index_links_on_short_url", using: :btree
   end
 
 end

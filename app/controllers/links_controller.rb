@@ -7,18 +7,26 @@ class LinksController < ApplicationController
 
   def index
     links = Link.all.map { |l| l.slice('short_url', 'long_url') }
+    links.each { |l| l['short_url'] = format_short_link(l['short_url']) }
     render json: links
   end
 
   def create
     link = Link.create!(long_url: params[:url])
-    render plain: "#{request.domain}:#{request.port}/#{link.short_url}", status: :created
+    # "#{request.domain}:#{request.port}/#{link.short_url}"
+    render plain: format_short_link(link.short_url), status: :created
+  rescue ActiveRecord::RecordNotSaved => save_error
+    # "#{request.domain}:#{request.port}/#{error.record.errors.messages[:duplicate].first}"
+    render plain: format_short_link(save_error.record.errors.messages[:duplicate].first), status: :ok
   rescue => error
-    render plain: "#{request.domain}:#{request.port}/#{error.record.errors.messages[:duplicate].first}", status: :ok
+    retry
   end
 
   def show
     link = Link.find_by(short_url: params[:url]).try { |l| l.slice('short_url', 'long_url') } || []
+    if link.present?
+      link['short_url'] = format_short_link(link['short_url'])
+    end
     render json: link
   end
 

@@ -4,6 +4,7 @@ class CreateLinks < ActiveRecord::Migration[5.0]
       t.text :long_url
       t.string :short_url
       t.integer :status_code, default: 301
+      t.integer :lock_version
 
       t.timestamps
     end
