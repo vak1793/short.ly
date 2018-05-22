@@ -4,7 +4,7 @@ A url shortening REST service
 
 Install rvm from [here](https://rvm.io/)
 
-* Run `bundle install` from project root directory
+* Run `bundle install` and `rake db:setup` from project root directory
 * Run `rvmsudo rails s -p 80`. Enter your root password when prompted.
 * If you are unable to run on port 80 try running on port 3001
 * Add `127.0.0.1 short.ly` to your hosts file.

@@ -13,10 +13,8 @@ class LinksController < ApplicationController
 
   def create
     link = Link.create!(long_url: params[:url])
-    # "#{request.domain}:#{request.port}/#{link.short_url}"
     render plain: format_short_link(link.short_url), status: :created
   rescue ActiveRecord::RecordNotSaved => save_error
-    # "#{request.domain}:#{request.port}/#{error.record.errors.messages[:duplicate].first}"
     render plain: format_short_link(save_error.record.errors.messages[:duplicate].first), status: :ok
   rescue => error
     retry
@@ -29,11 +27,6 @@ class LinksController < ApplicationController
     end
     render json: link
   end
-
-  # def update
-  #   link = Link.find_by(short_url: params[:url]).try { |l| l.slice('short_url', 'long_url') } || []
-  #   render json: link
-  # end
 
   def destroy
     Link.find_by(short_url: params[:url]).delete

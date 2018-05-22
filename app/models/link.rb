@@ -61,10 +61,10 @@ class Link < ApplicationRecord
   def extract_domain_name(url)
     if url.include? "://"
       domain = url.split('/')[2]
-      path = url.split('/')[3..-1].join('').split('?').first if url.count('/') > 2
+      path = url.split('/')[3..-1].join('/').split('?').first if url.count('/') > 2
     else
       domain = url.split('/')[0]
-      path = url.split('/')[1..-1].join('').split('?').first if url.count('/') > 0
+      path = url.split('/')[1..-1].join('/').split('?').first if url.count('/') > 0
     end
 
     # find & remove port number
