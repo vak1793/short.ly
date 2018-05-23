@@ -17,7 +17,14 @@ class LinksController < ApplicationController
   rescue ActiveRecord::RecordNotSaved => save_error
     render plain: format_short_link(save_error.record.errors.messages[:duplicate].first), status: :ok
   rescue => error
-    retry
+    retries ||= 0
+
+    if retries < 5
+      retries += 1
+      retry
+    else
+      raise error
+    end
   end
 
   def show
